@@ -110,8 +110,8 @@ def crawl_web(seed):
 
 index , graph = crawl_web('https:')
 ranks = compute_ranks(graph)
-#if 'http://udacity.com/cs101x/urank/index.html' in graph:
-#    print graph
+
+
 #print index
 #print ranks
 print "Enter END for ending the season"
