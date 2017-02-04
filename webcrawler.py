@@ -108,7 +108,7 @@ def crawl_web(seed):
             i = i +1
     return index,graph
 
-index , graph = crawl_web('https://www.udacity.com/cs101x/urank/index.html')
+index , graph = crawl_web('https:')
 ranks = compute_ranks(graph)
 #if 'http://udacity.com/cs101x/urank/index.html' in graph:
 #    print graph
